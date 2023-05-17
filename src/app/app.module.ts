@@ -7,7 +7,8 @@ import { CabeceraComponent } from './Templete/cabecera/cabecera.component';
 import { MenuComponent } from './Templete/menu/menu.component';
 import { AcercaComponent } from './pages/acerca/acerca.component';
 import { ListarComponent } from './pages/listar/listar.component';
-import { CrearComponent } from './pagues/crear/crear.component';
+import { CrearComponent } from './crear/crear.component';
+
 
 @NgModule({
   declarations: [
