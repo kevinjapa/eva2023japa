@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-crear',
@@ -8,7 +9,15 @@ import { Component } from '@angular/core';
 export class CrearComponent 
 {
 
-  nombre:string="";
-  
+  nombre:string="pero";
+  duracion:string="fsd";
+  ciclos:number=5;
+
+  guardar(){
+
+
+
+  }
+
 
 }
