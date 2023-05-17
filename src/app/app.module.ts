@@ -5,12 +5,18 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CabeceraComponent } from './Templete/cabecera/cabecera.component';
 import { MenuComponent } from './Templete/menu/menu.component';
+import { AcercaComponent } from './pages/acerca/acerca.component';
+import { ListarComponent } from './pages/listar/listar.component';
+import { CrearComponent } from './pagues/crear/crear.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CabeceraComponent,
-    MenuComponent
+    MenuComponent,
+    AcercaComponent,
+    ListarComponent,
+    CrearComponent
   ],
   imports: [
     BrowserModule,
