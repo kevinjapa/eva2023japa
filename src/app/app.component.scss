@@ -1,0 +1,19 @@
+.clearfix {
+    /* para llamar a una de las clases desde html*/
+    clear: both; /* para que los elementos que se estan subiendo se queden en su mismo lugar\*/
+  }
+  .cabecera{
+    background-color: #969696;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilos para el menú */
+  .menu{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+  .cabecera{
+  }
+
